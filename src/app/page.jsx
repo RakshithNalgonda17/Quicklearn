@@ -309,13 +309,13 @@ const WorkspaceLayout = () => {
               <Layout className="text-purple-400" size={24} />
               <h2 className="text-xl font-bold text-white">Workspaces</h2>
             </div>
-            <button
+            {/* <button
               onClick={() => setSelectedWorkspaceId(null)}
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-purple-500/20 text-purple-400 hover:bg-purple-500/30 transition-all border border-purple-500/50"
             >
               <MessageSquare size={18} />
               <p>AI Chat</p>
-            </button>
+            </button> */}
           </div>
           {isLoading ? (
             <div className="flex justify-center py-4">
